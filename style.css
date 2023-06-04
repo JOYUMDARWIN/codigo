@@ -1,0 +1,174 @@
+body{
+    position: relative;
+    width: auto;
+    height: 1024px;
+
+}
+
+*{
+    background: #b3bfe7;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    
+    
+}
+
+.logo{
+    position: relative;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 40px;
+    width: 5%;
+    border-radius: 20px;       
+}
+
+main{
+    display: flex;
+    margin-left: 180px;
+    margin-bottom: 10px;
+    padding: 20px;
+    
+}
+.contenedorIzq{
+    display: flex;
+    flex-direction: column;
+}
+
+.ingreso-texto{
+   display: flex;
+   color: #0a3871;
+   padding: 10px;
+   margin: 2px 180px 450px 25px;
+   text-transform: lowercase;
+   border: none;
+   border-radius: 20px;
+   box-shadow: 0px 24px 32px -8px rgba(0,0,0,1);
+   
+}
+::placeholder {color: #0a3871;}
+
+.ingreso-texto:focus{
+    outline-color: #b3bfe7;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 80px;
+    background-color: #b3bfe7;
+    margin: 10px;
+    padding: 10px;
+    width: 400px;
+    height: 900px;
+      
+}
+img{
+    position: relative;
+    left: 50px;
+    width: 50%;
+    margin-left: 45px;
+    
+}
+#titulo{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+#subtitulo{
+    text-align: center;
+    font-size: 15px;
+
+}
+#textareaoutput{
+    width: 300px;
+    height: 200px;
+    margin-left: 45px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 24px 32px -8px rgba(0,0,0,1);
+    display:none
+    
+}
+#copiar{
+    position: relative;
+    left: 20px;
+    background: #D8DFE8;
+    color: darkblue;
+    width: 75%;
+    margin:2% 10% 10% 12%;
+    height: 45px;
+    border:1px solid darkblue;
+    border-radius: 20px;
+    cursor: pointer;
+    display:none
+}
+#textareaoutput:focus{
+    outline-color:#0a3871 ;
+}
+
+.advertencia{
+    position: relative;
+    bottom: 400px;
+    margin-bottom: 20px;
+    color: #0a3871;
+    height: 30px;
+    font-size: 18px;
+    
+}
+
+.botones{
+    position: relative;
+    bottom: 400px;
+    right: 50px;
+    display: flex;
+    gap: 25px;
+    margin-left: 30px;
+    margin-top: 10px;
+    
+}
+
+.btn-encriptar{
+    background-color: #0a3871;
+    border-radius: 20px;
+    border: 1px solid #0a3871;
+    width: 328px;
+    height: 50px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.btn-desencriptar{
+    background-color: #d8dfe8;
+    border-radius: 20px;
+    border:1px solid #0a3871;
+    width: 328px;
+    color: #0a3871;
+    cursor: pointer;
+}
+.footer{
+  
+    display: flex;
+    position: relative;
+    bottom: 450px;
+    left: 350px;
+
+}
+
+.github{
+    width: 20px;
+}
+.mi_nombre{
+    margin-left: 150px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Inter";
+    color:  #0a3871;
+}
+
+.linkedin{
+    width: 20px;
+}
