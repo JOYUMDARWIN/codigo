@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,39 +18,45 @@
         <img class="logo" src="./imagenes/logoalura.jpeg" alt="logo de alura">
     </header>
     <main>
-    <section class="contenedorIzq">
-        <textarea class="ingreso-texto" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
-        <div>
-            <h4 class="advertencia"> &#9888;¡Advertencia! Solo letras minúsculas y sin acentos</h4>
-        </div>
-        <div class="botones">
-            <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
-            <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
-        </div>
-    </section>
-    <div class="contenedor">
-        <div>
-            <textarea class="textareaoutput" rows="12"></textarea>
-            <img src="./imagenes/munheco.jpg" >
-            <p id="titulo">Ningún Mensaje fue Encontrado</p>
-            <p id="subtitulo">Ingresa el texto que desees encriptar o desencriptar.</p>
+        <section class="contenedorIzq">
+            <textarea class="ingreso-texto" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
             <div>
-                <button id="copiar"  onclick="copiar()">Copiar</button>
+                <h4 class="advertencia"> &#9888;¡Advertencia! Solo letras minúsculas y sin acentos</h4>
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <div class="contenedor">
+            <div>
+                <div id="mostrar" style="display:none;">
+                    <textarea class="textareaoutput" rows="12"></textarea>
+                    <div>
+                        <button id="copiar" onclick="copiar()">Copiar</button>
+                    </div>
+                </div>
+                <div id="ocultar">
+                    <img src="./imagenes/munheco.jpg">
+                    <p id="titulo">Ningún Mensaje fue Encontrado</p>
+                    <p id="subtitulo">Ingresa el texto que desees encriptar o desencriptar.</p>
+                </div>
+
             </div>
         </div>
-    </div>
- 
-        
-   
+
+
+
     </main>
-    
+
     <footer class="footer">
         <img class="github" src="./imagenes/logo_github.png" alt="logo de git-hub">
         <p class="mi_nombre">2023 Darwin Moreno</p>
-        <img class="linkedin" src="./imagenes/logo_in.png" alt="logo de linkedin">    
+        <img class="linkedin" src="./imagenes/logo_in.png" alt="logo de linkedin">
     </footer>
     <script src="./script.js"></script>
-  
-    
+
+
 </body>
+
 </html>

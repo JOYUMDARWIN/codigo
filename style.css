@@ -93,7 +93,7 @@ img{
     border: none;
     border-radius: 20px;
     box-shadow: 0px 24px 32px -8px rgba(0,0,0,1);
-    /*display:none*/
+    
     
 }
 #copiar{
@@ -107,7 +107,7 @@ img{
     border:1px solid darkblue;
     border-radius: 20px;
     cursor: pointer;
-    /*display:none*/
+    
 }
 #textareaoutput:focus{
     outline-color:#0a3871 ;

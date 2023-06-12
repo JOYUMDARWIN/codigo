@@ -12,7 +12,10 @@ const matrizCodigo = [
 function btnEncriptar() {
     const textoEncriptado = encriptar(ingresoTexto.value);
     textareaOutput.value = textoEncriptado;
-    ingresoTexto.value = "";
+    ingresoTexto.value = ""; 
+    document.getElementById("ocultar").style.display = "none";
+    document.getElementById("mostrar").style.display = "";
+       
 }
 function btnDesencriptar() {
     const textoDesencriptado = desencriptar(textareaOutput.value);
